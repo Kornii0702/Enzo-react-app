@@ -4,7 +4,6 @@ export default function Footer() {
   return (
     <footer className="border-t border-gray-300 mt-16 text-left">
       <div className=" max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-start space-y-6 md:space-y-0 md:space-x-8">
-        {/* Lewa strona */}
         <div>
           <h3 className="text-black font-semibold mb-4">Niezbędne informacje:</h3>
           <ul className="space-y-2 text-sm text-gray-700 text-left">
@@ -15,14 +14,12 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Prawa strona z logotypami */}
         <div className="flex justify-end items-start space-x-4">
           <img src="/img/UE.png" alt="Fundusze Europejskie" className="h-8 md:h-10" />
 
         </div>
       </div>
 
-      {/* Dolna belka */}
       <div className="max-w-7xl mx-auto px-4 pb-6 flex flex-col md:flex-row justify-between items-center text-sm text-gray-600">
         <p>© 2021 Zen Zone Sp. z o.o.</p>
         <p className="flex items-center gap-1">
